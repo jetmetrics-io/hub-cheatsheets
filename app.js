@@ -183,9 +183,15 @@
     els.lightboxTitle.textContent = item.title;
     els.lightboxTags.innerHTML = "";
     item.tags.forEach(function (t) {
-      var chip = document.createElement("span");
+      var chip = document.createElement("button");
+      chip.type = "button";
       chip.className = "jm-cs-lightbox-tag";
       chip.textContent = state.tagLabels[t] || t;
+      chip.addEventListener("click", function (e) {
+        e.stopPropagation();
+        closeLightbox();
+        filterByTag(t);
+      });
       els.lightboxTags.appendChild(chip);
     });
     els.lightboxDownload.href = item.pdf;

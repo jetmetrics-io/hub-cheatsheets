@@ -216,14 +216,16 @@
   font-weight: 500;
 }
 
-.jm-cs-card-tag {
+.jm-cs-card-tag,
+.jm-cs-lightbox-tag {
   border: none;
   font-family: inherit;
   cursor: pointer;
   transition: background .15s ease, color .15s ease;
 }
 
-.jm-cs-card-tag:hover {
+.jm-cs-card-tag:hover,
+.jm-cs-lightbox-tag:hover {
   background: var(--jm-green);
   color: #fff;
 }
