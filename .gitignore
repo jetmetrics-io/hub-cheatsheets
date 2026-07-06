@@ -15,4 +15,11 @@ remove_and_renumber.py
 
 # Original source PDFs (un-renamed) — kept locally only, not needed for the live site
 ру читшиты/
+new читшиты /
 .DS_Store
+
+# Figma link-audit/fix plugins — internal tools, not part of the published site
+figma-plugin/
+figma-plugin-rename/
+figma-plugin-addtg/
+jetmetrics_link_audit.json

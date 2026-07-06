@@ -1,27 +1,35 @@
 {
   "tags": {
-    "dashboards": "Дашборды",
-    "vanity-metrics": "Метрики-обманки",
-    "metric-maps": "Карты и деревья метрик",
+    "metric-maps": "Карты метрик",
     "diagnostics": "Диагностика метрик",
-    "ecommerce-metrics": "E-commerce метрики",
-    "retention": "Удержание",
-    "data-culture": "Data culture и ошибки",
-    "frameworks": "Фреймворки и классификации",
+    "misleading": "Метрики-обманки",
+    "metric-combination": "Комбинации метрик",
+    "metric-trees": "Деревья метрик",
+    "dashboards": "Дашборды",
+    "vanity-metrics": "Метрики тщеславия",
+    "segmentation": "Сегментация",
+    "drivers": "Драйверы метрик",
+    "mistakes": "Ошибки",
+    "aov": "AOV (средний чек)",
+    "costs-profit": "Затраты и прибыль",
+    "data-culture": "Data-культура",
+    "retention": "Retention",
+    "cr": "Конверсия (CR)",
+    "ltv": "LTV",
+    "interpretation": "Интерпретация метрик",
+    "growth": "Рост",
+    "reporting": "Отчётность",
     "seo": "SEO",
     "crm": "CRM",
-    "ai-analytics": "AI и аналитика",
-    "segmentation": "Сегментация",
-    "costs-profit": "Расходы и прибыль",
-    "reporting": "Отчётность и коммуникация"
+    "ai-analytics": "AI в аналитике"
   },
   "items": [
     {
       "id": "cs-001",
       "title": "№1 — Аналитика без связей — это проигрышная колода",
       "tags": [
-        "dashboards",
-        "reporting"
+        "metric-combination",
+        "misleading"
       ],
       "pdf": "pdf/cs-001.pdf",
       "thumb": "thumbs/cs-001.png",
@@ -31,10 +39,10 @@
     },
     {
       "id": "cs-002",
-      "title": "№2 — Яркие метрики могут врать, метрики в тени говорят правду",
+      "title": "№2 — Яркие метрики могут врать. Метрики в тени говорят правду.",
       "tags": [
-        "vanity-metrics",
-        "diagnostics"
+        "misleading",
+        "metric-combination"
       ],
       "pdf": "pdf/cs-002.pdf",
       "thumb": "thumbs/cs-002.png",
@@ -46,21 +54,20 @@
       "id": "cs-003",
       "title": "№3 — Не измеряй всё подряд. Двигайся по курсу.",
       "tags": [
-        "data-culture",
-        "frameworks"
+        "metric-maps"
       ],
       "pdf": "pdf/cs-003.pdf",
       "thumb": "thumbs/cs-003.png",
       "source": "048 Don’t measure everything. Navigate. RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/265",
       "internal_title": "#048 — Не измеряй всё подряд. Двигайся по курсу."
     },
     {
       "id": "cs-004",
       "title": "№4 — От бестселлеров к «мёртвым» запасам",
       "tags": [
-        "ecommerce-metrics",
-        "segmentation"
+        "segmentation",
+        "costs-profit"
       ],
       "pdf": "pdf/cs-004.pdf",
       "thumb": "thumbs/cs-004.png",
@@ -72,21 +79,21 @@
       "id": "cs-005",
       "title": "№5 — Анатомия метрики «Конверсия в добавление в корзину»",
       "tags": [
-        "metric-maps",
-        "ecommerce-metrics"
+        "metric-trees",
+        "cr"
       ],
       "pdf": "pdf/cs-005.pdf",
       "thumb": "thumbs/cs-005.png",
       "source": "051 Add to Cart Rate Driver Tree RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/268",
       "internal_title": "#051 — Анатомия метрики «Конверсия в добавление в корзину»"
     },
     {
       "id": "cs-006",
       "title": "№6 — Одинаковый CR, разные воронки",
       "tags": [
-        "diagnostics",
-        "ecommerce-metrics"
+        "cr",
+        "misleading"
       ],
       "pdf": "pdf/cs-006.pdf",
       "thumb": "thumbs/cs-006.png",
@@ -98,7 +105,7 @@
       "id": "cs-007",
       "title": "№7 — LTV по сегментам — вот где ценность",
       "tags": [
-        "ecommerce-metrics",
+        "ltv",
         "segmentation"
       ],
       "pdf": "pdf/cs-007.pdf",
@@ -111,8 +118,8 @@
       "id": "cs-008",
       "title": "№8 — Чекап метрик в e-commerce",
       "tags": [
-        "ecommerce-metrics",
-        "frameworks"
+        "diagnostics",
+        "metric-combination"
       ],
       "pdf": "pdf/cs-008.pdf",
       "thumb": "thumbs/cs-008.png",
@@ -124,7 +131,8 @@
       "id": "cs-009",
       "title": "№9 — Фундаментальные ошибки в работе с метриками",
       "tags": [
-        "data-culture"
+        "mistakes",
+        "misleading"
       ],
       "pdf": "pdf/cs-009.pdf",
       "thumb": "thumbs/cs-009.png",
@@ -134,21 +142,21 @@
     },
     {
       "id": "cs-010",
-      "title": "№10 — Это метрика тщеславия? Проверь через 8 вопросов",
+      "title": "№10 — Это метрика тщеславия? Проверь по 8 вопросам",
       "tags": [
         "vanity-metrics"
       ],
       "pdf": "pdf/cs-010.pdf",
       "thumb": "thumbs/cs-010.png",
       "source": "056 Is this a vanity metric RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/280",
       "internal_title": "#056 — Это метрика тщеславия? Проверь через 8 вопросов"
     },
     {
       "id": "cs-011",
-      "title": "№11 — Скрытые закономерности из пересечений метрик 2.0",
+      "title": "№11 — Скрытые закономерности из пересечений метрик — 2.0",
       "tags": [
-        "metric-maps",
+        "metric-combination",
         "diagnostics"
       ],
       "pdf": "pdf/cs-011.pdf",
@@ -161,8 +169,8 @@
       "id": "cs-012",
       "title": "№12 — 4 рычага воздействия на средний чек",
       "tags": [
-        "frameworks",
-        "diagnostics"
+        "aov",
+        "drivers"
       ],
       "pdf": "pdf/cs-012.pdf",
       "thumb": "thumbs/cs-012.png",
@@ -174,7 +182,8 @@
       "id": "cs-013",
       "title": "№13 — 7 заблуждений об аналитике (и что делать вместо них)",
       "tags": [
-        "data-culture"
+        "data-culture",
+        "mistakes"
       ],
       "pdf": "pdf/cs-013.pdf",
       "thumb": "thumbs/cs-013.png",
@@ -186,8 +195,8 @@
       "id": "cs-014",
       "title": "№14 — 30 гипотез для роста метрики «Среднее кол-во SKU в заказе»",
       "tags": [
-        "ecommerce-metrics",
-        "diagnostics"
+        "drivers",
+        "aov"
       ],
       "pdf": "pdf/cs-014.pdf",
       "thumb": "thumbs/cs-014.png",
@@ -199,8 +208,8 @@
       "id": "cs-015",
       "title": "№15 — Почему общий показатель может падать, когда сегменты растут",
       "tags": [
-        "data-culture",
-        "diagnostics"
+        "misleading",
+        "segmentation"
       ],
       "pdf": "pdf/cs-015.pdf",
       "thumb": "thumbs/cs-015.png",
@@ -213,7 +222,7 @@
       "title": "№16 — 4 слоя отчётности",
       "tags": [
         "dashboards",
-        "frameworks"
+        "metric-maps"
       ],
       "pdf": "pdf/cs-016.pdf",
       "thumb": "thumbs/cs-016.png",
@@ -225,7 +234,8 @@
       "id": "cs-017",
       "title": "№17 — Омерзительная десятка",
       "tags": [
-        "vanity-metrics"
+        "segmentation",
+        "costs-profit"
       ],
       "pdf": "pdf/cs-017.pdf",
       "thumb": "thumbs/cs-017.png",
@@ -237,19 +247,21 @@
       "id": "cs-018",
       "title": "№18 — Как мы мыслим: дашборды, которые объясняют, а не просто описывают",
       "tags": [
-        "data-culture"
+        "dashboards",
+        "diagnostics"
       ],
       "pdf": "pdf/cs-018.pdf",
       "thumb": "thumbs/cs-018.png",
       "source": "065 New Old way RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/293",
       "internal_title": "#065 — Как мы мыслим: дашборды, которые объясняют, а не просто описывают"
     },
     {
       "id": "cs-019",
       "title": "№19 — Одна метрика — это просто сигнал. Аналитика — это связи между ними",
       "tags": [
-        "metric-maps"
+        "metric-maps",
+        "metric-combination"
       ],
       "pdf": "pdf/cs-019.pdf",
       "thumb": "thumbs/cs-019.png",
@@ -261,8 +273,8 @@
       "id": "cs-020",
       "title": "№20 — 7 способов декомпозировать AOV",
       "tags": [
-        "metric-maps",
-        "frameworks"
+        "aov",
+        "metric-trees"
       ],
       "pdf": "pdf/cs-020.pdf",
       "thumb": "thumbs/cs-020.png",
@@ -275,8 +287,7 @@
       "title": "№21 — Конверсия выросла, а прибыль упала",
       "tags": [
         "diagnostics",
-        "ecommerce-metrics",
-        "costs-profit"
+        "misleading"
       ],
       "pdf": "pdf/cs-021.pdf",
       "thumb": "thumbs/cs-021.png",
@@ -288,6 +299,7 @@
       "id": "cs-022",
       "title": "№22 — «Ничего не изменилось»",
       "tags": [
+        "misleading",
         "diagnostics"
       ],
       "pdf": "pdf/cs-022.pdf",
@@ -301,7 +313,7 @@
       "title": "№23 — 3 типа дашбордов — 1 основа: карта метрик",
       "tags": [
         "dashboards",
-        "frameworks"
+        "metric-maps"
       ],
       "pdf": "pdf/cs-023.pdf",
       "thumb": "thumbs/cs-023.png",
@@ -330,7 +342,7 @@
       "pdf": "pdf/cs-025.pdf",
       "thumb": "thumbs/cs-025.png",
       "source": "072 Good vs Bad Dashboards RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/416",
       "internal_title": "#072 — Хорошая и плохая аналитика: дашборды для решений"
     },
     {
@@ -349,32 +361,32 @@
       "id": "cs-027",
       "title": "№27 — 3 рычага управления метрикой LTV",
       "tags": [
-        "frameworks",
-        "diagnostics"
+        "ltv",
+        "drivers"
       ],
       "pdf": "pdf/cs-027.pdf",
       "thumb": "thumbs/cs-027.png",
       "source": "074 3 leverages of how to drive RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/303",
       "internal_title": "#074 — 3 рычага управления метрикой LTV"
     },
     {
       "id": "cs-028",
       "title": "№28 — Как метрика тщеславия становится полезной",
       "tags": [
-        "vanity-metrics"
+        "vanity-metrics",
+        "metric-combination"
       ],
       "pdf": "pdf/cs-028.pdf",
       "thumb": "thumbs/cs-028.png",
       "source": "075 How a Vanity Metric Becomes Useful RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/305",
       "internal_title": "#075 — Как метрика тщеславия становится полезной"
     },
     {
       "id": "cs-029",
       "title": "№29 — Что вы отслеживаете ≠ что на самом деле важно",
       "tags": [
-        "reporting",
         "vanity-metrics"
       ],
       "pdf": "pdf/cs-029.pdf",
@@ -387,8 +399,7 @@
       "id": "cs-030",
       "title": "№30 — 10 полезных разрезов для e-commerce",
       "tags": [
-        "segmentation",
-        "frameworks"
+        "segmentation"
       ],
       "pdf": "pdf/cs-030.pdf",
       "thumb": "thumbs/cs-030.png",
@@ -400,8 +411,8 @@
       "id": "cs-031",
       "title": "№31 — 4 уровня системы метрик",
       "tags": [
-        "frameworks",
-        "dashboards"
+        "metric-maps",
+        "metric-trees"
       ],
       "pdf": "pdf/cs-031.pdf",
       "thumb": "thumbs/cs-031.png",
@@ -413,8 +424,8 @@
       "id": "cs-032",
       "title": "№32 — Как формируются расходы (и как это бьёт по прибыли)",
       "tags": [
-        "costs-profit",
-        "ecommerce-metrics"
+        "metric-maps",
+        "costs-profit"
       ],
       "pdf": "pdf/cs-032.pdf",
       "thumb": "thumbs/cs-032.png",
@@ -426,7 +437,8 @@
       "id": "cs-033",
       "title": "№33 — Что приводит к брошенным корзинам",
       "tags": [
-        "ecommerce-metrics"
+        "metric-trees",
+        "diagnostics"
       ],
       "pdf": "pdf/cs-033.pdf",
       "thumb": "thumbs/cs-033.png",
@@ -436,7 +448,7 @@
     },
     {
       "id": "cs-034",
-      "title": "№34 — Как проектировать дашборды правильно",
+      "title": "№34 — Как проектировать дашборды",
       "tags": [
         "dashboards"
       ],
@@ -448,10 +460,10 @@
     },
     {
       "id": "cs-035",
-      "title": "№35 — 9 кругов e-commerce аналитики ада",
+      "title": "№35 — 9 кругов ада в e-commerce-аналитике",
       "tags": [
-        "data-culture",
-        "ecommerce-metrics"
+        "mistakes",
+        "dashboards"
       ],
       "pdf": "pdf/cs-035.pdf",
       "thumb": "thumbs/cs-035.png",
@@ -463,7 +475,8 @@
       "id": "cs-036",
       "title": "№36 — Карта метрик ≠ дерево метрик",
       "tags": [
-        "metric-maps"
+        "metric-maps",
+        "metric-trees"
       ],
       "pdf": "pdf/cs-036.pdf",
       "thumb": "thumbs/cs-036.png",
@@ -488,8 +501,7 @@
       "id": "cs-038",
       "title": "№38 — 12 сигналов, что клиент готов купить",
       "tags": [
-        "ecommerce-metrics",
-        "diagnostics"
+        "cr"
       ],
       "pdf": "pdf/cs-038.pdf",
       "thumb": "thumbs/cs-038.png",
@@ -501,8 +513,8 @@
       "id": "cs-039",
       "title": "№39 — Как структура помогает выбрать приоритеты",
       "tags": [
-        "frameworks",
-        "data-culture"
+        "metric-maps",
+        "metric-trees"
       ],
       "pdf": "pdf/cs-039.pdf",
       "thumb": "thumbs/cs-039.png",
@@ -514,7 +526,8 @@
       "id": "cs-040",
       "title": "№40 — Иллюзия здоровья в e-commerce",
       "tags": [
-        "ecommerce-metrics"
+        "misleading",
+        "metric-combination"
       ],
       "pdf": "pdf/cs-040.pdf",
       "thumb": "thumbs/cs-040.png",
@@ -526,7 +539,8 @@
       "id": "cs-041",
       "title": "№41 — Сначала карты метрик, потом деревья метрик",
       "tags": [
-        "metric-maps"
+        "metric-maps",
+        "metric-trees"
       ],
       "pdf": "pdf/cs-041.pdf",
       "thumb": "thumbs/cs-041.png",
@@ -538,7 +552,8 @@
       "id": "cs-042",
       "title": "№42 — Жизненный цикл карт и деревьев метрик",
       "tags": [
-        "metric-maps"
+        "metric-maps",
+        "metric-trees"
       ],
       "pdf": "pdf/cs-042.pdf",
       "thumb": "thumbs/cs-042.png",
@@ -556,15 +571,15 @@
       "pdf": "pdf/cs-043.pdf",
       "thumb": "thumbs/cs-043.png",
       "source": "091 CRM metrics map – RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/359",
       "internal_title": "#091 — CRM метрики как система"
     },
     {
       "id": "cs-044",
       "title": "№44 — Приоритеты аналитики в 2026",
       "tags": [
-        "data-culture",
-        "frameworks"
+        "reporting",
+        "data-culture"
       ],
       "pdf": "pdf/cs-044.pdf",
       "thumb": "thumbs/cs-044.png",
@@ -577,7 +592,7 @@
       "title": "№45 — Как разобраться, почему упал AOV: алгоритм из 10 шагов",
       "tags": [
         "diagnostics",
-        "ecommerce-metrics"
+        "aov"
       ],
       "pdf": "pdf/cs-045.pdf",
       "thumb": "thumbs/cs-045.png",
@@ -590,8 +605,7 @@
       "title": "№46 — Заказы выросли, прибыль упала — как найти причину",
       "tags": [
         "diagnostics",
-        "costs-profit",
-        "ecommerce-metrics"
+        "costs-profit"
       ],
       "pdf": "pdf/cs-046.pdf",
       "thumb": "thumbs/cs-046.png",
@@ -603,7 +617,7 @@
       "id": "cs-047",
       "title": "№47 — 15 подходов к систематизации метрик",
       "tags": [
-        "frameworks"
+        "data-culture"
       ],
       "pdf": "pdf/cs-047.pdf",
       "thumb": "thumbs/cs-047.png",
@@ -615,8 +629,8 @@
       "id": "cs-048",
       "title": "№48 — Конверсия — это результат, а не точка приложения усилий",
       "tags": [
-        "metric-maps",
-        "ecommerce-metrics"
+        "cr",
+        "drivers"
       ],
       "pdf": "pdf/cs-048.pdf",
       "thumb": "thumbs/cs-048.png",
@@ -628,19 +642,20 @@
       "id": "cs-049",
       "title": "№49 — Хаотичные решения: почему продажи упали",
       "tags": [
-        "data-culture"
+        "mistakes",
+        "metric-maps"
       ],
       "pdf": "pdf/cs-049.pdf",
       "thumb": "thumbs/cs-049.png",
       "source": "097 Spontaneous Decisions VS System RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/386",
       "internal_title": "#097 — Хаотичные решения: почему продажи упали"
     },
     {
       "id": "cs-050",
       "title": "№50 — Как выбрать ключевую метрику",
       "tags": [
-        "frameworks"
+        "data-culture"
       ],
       "pdf": "pdf/cs-050.pdf",
       "thumb": "thumbs/cs-050.png",
@@ -652,7 +667,6 @@
       "id": "cs-051",
       "title": "№51 — Нужно ли добавлять эту метрику на дашборд?",
       "tags": [
-        "frameworks",
         "dashboards"
       ],
       "pdf": "pdf/cs-051.pdf",
@@ -665,21 +679,20 @@
       "id": "cs-052",
       "title": "№52 — «Давайте узнаем, почему продажи снизились»",
       "tags": [
-        "diagnostics",
-        "reporting"
+        "diagnostics"
       ],
       "pdf": "pdf/cs-052.pdf",
       "thumb": "thumbs/cs-052.png",
       "source": "103 What people think Checking why revenue dropped looks like – RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/402",
       "internal_title": "#103 — «Давайте узнаем, почему продажи снизились»"
     },
     {
       "id": "cs-053",
       "title": "№53 — Если метрика растёт — это хорошо?",
       "tags": [
-        "diagnostics",
-        "vanity-metrics"
+        "interpretation",
+        "misleading"
       ],
       "pdf": "pdf/cs-053.pdf",
       "thumb": "thumbs/cs-053.png",
@@ -691,8 +704,8 @@
       "id": "cs-054",
       "title": "№54 — Разные приложения, одинаковые продажи",
       "tags": [
-        "diagnostics",
-        "ecommerce-metrics"
+        "metric-combination",
+        "interpretation"
       ],
       "pdf": "pdf/cs-054.pdf",
       "thumb": "thumbs/cs-054.png",
@@ -704,7 +717,8 @@
       "id": "cs-055",
       "title": "№55 — Как объяснять изменение метрик, чтобы это приводило к решениям",
       "tags": [
-        "reporting"
+        "reporting",
+        "diagnostics"
       ],
       "pdf": "pdf/cs-055.pdf",
       "thumb": "thumbs/cs-055.png",
@@ -716,8 +730,8 @@
       "id": "cs-056",
       "title": "№56 — Оптимизация — это не рост",
       "tags": [
-        "data-culture",
-        "ecommerce-metrics"
+        "growth",
+        "drivers"
       ],
       "pdf": "pdf/cs-056.pdf",
       "thumb": "thumbs/cs-056.png",
@@ -729,21 +743,20 @@
       "id": "cs-057",
       "title": "№57 — Одна метрика не покажет, в чём проблема",
       "tags": [
-        "diagnostics",
-        "vanity-metrics"
+        "metric-combination"
       ],
       "pdf": "pdf/cs-057.pdf",
       "thumb": "thumbs/cs-057.png",
       "source": "109 One metric won't tell you what's wrong – RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/409",
       "internal_title": "#109 — Одна метрика не покажет, в чём проблема"
     },
     {
       "id": "cs-058",
       "title": "№58 — Когда рост заказов на самом деле вреден",
       "tags": [
-        "ecommerce-metrics",
-        "costs-profit"
+        "misleading",
+        "metric-combination"
       ],
       "pdf": "pdf/cs-058.pdf",
       "thumb": "thumbs/cs-058.png",
@@ -753,10 +766,10 @@
     },
     {
       "id": "cs-059",
-      "title": "№59 — Как топ-команды работают с метриками иначе",
+      "title": "№59 — Как топ-команды иначе работают с метриками",
       "tags": [
         "data-culture",
-        "ecommerce-metrics"
+        "diagnostics"
       ],
       "pdf": "pdf/cs-059.pdf",
       "thumb": "thumbs/cs-059.png",
@@ -792,7 +805,7 @@
       "id": "cs-062",
       "title": "№62 — 4 типа метрик на карте метрик",
       "tags": [
-        "frameworks"
+        "metric-maps"
       ],
       "pdf": "pdf/cs-062.pdf",
       "thumb": "thumbs/cs-062.png",
@@ -804,8 +817,7 @@
       "id": "cs-063",
       "title": "№63 — 2 типа связей между метриками",
       "tags": [
-        "frameworks",
-        "metric-maps"
+        "metric-combination"
       ],
       "pdf": "pdf/cs-063.pdf",
       "thumb": "thumbs/cs-063.png",
@@ -817,8 +829,8 @@
       "id": "cs-064",
       "title": "№64 — Что может скрываться за одной карточкой KPI",
       "tags": [
-        "ecommerce-metrics",
-        "diagnostics"
+        "aov",
+        "misleading"
       ],
       "pdf": "pdf/cs-064.pdf",
       "thumb": "thumbs/cs-064.png",
@@ -828,10 +840,10 @@
     },
     {
       "id": "cs-065",
-      "title": "№65 — Как правильно задавать вопросы о метриках ИИ",
+      "title": "№65 — Как правильно задавать вопросы о метриках",
       "tags": [
-        "ai-analytics",
-        "data-culture"
+        "interpretation",
+        "diagnostics"
       ],
       "pdf": "pdf/cs-065.pdf",
       "thumb": "thumbs/cs-065.png",
@@ -844,7 +856,7 @@
       "title": "№66 — Украшение или решение?",
       "tags": [
         "dashboards",
-        "data-culture"
+        "diagnostics"
       ],
       "pdf": "pdf/cs-074.pdf",
       "thumb": "thumbs/cs-074.png",
@@ -856,7 +868,8 @@
       "id": "cs-075",
       "title": "№67 — Чего не хватает вашему ИИ для аналитики",
       "tags": [
-        "ai-analytics"
+        "ai-analytics",
+        "metric-maps"
       ],
       "pdf": "pdf/cs-075.pdf",
       "thumb": "thumbs/cs-075.png",
@@ -868,8 +881,8 @@
       "id": "cs-076",
       "title": "№68 — Когда метрика становится самоцелью",
       "tags": [
-        "data-culture",
-        "vanity-metrics"
+        "vanity-metrics",
+        "metric-combination"
       ],
       "pdf": "pdf/cs-076.pdf",
       "thumb": "thumbs/cs-076.png",
@@ -894,8 +907,7 @@
       "id": "cs-078",
       "title": "№70 — 14 типов товаров, которые мешают e-commerce расти",
       "tags": [
-        "ecommerce-metrics",
-        "diagnostics"
+        "segmentation"
       ],
       "pdf": "pdf/cs-078.pdf",
       "thumb": "thumbs/cs-078.png",
@@ -908,19 +920,20 @@
       "title": "№71 — 25 причин, почему отчёты не помогают расти",
       "tags": [
         "reporting",
-        "dashboards"
+        "mistakes"
       ],
       "pdf": "pdf/cs-079.pdf",
       "thumb": "thumbs/cs-079.png",
       "source": "25 reasons reports aren’t helping you grow RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/220",
       "internal_title": "25 причин, почему отчёты не помогают расти"
     },
     {
       "id": "cs-080",
       "title": "№72 — 4 стадии деградации ретеншна",
       "tags": [
-        "retention"
+        "retention",
+        "diagnostics"
       ],
       "pdf": "pdf/cs-080.pdf",
       "thumb": "thumbs/cs-080.png",
@@ -932,8 +945,7 @@
       "id": "cs-081",
       "title": "№73 — Есть 3 вида удержания клиентов, и только один полезен",
       "tags": [
-        "retention",
-        "ecommerce-metrics"
+        "retention"
       ],
       "pdf": "pdf/cs-081.pdf",
       "thumb": "thumbs/cs-081.png",
@@ -945,8 +957,8 @@
       "id": "cs-082",
       "title": "№74 — 5 типов взаимосвязей между метриками",
       "tags": [
-        "frameworks",
-        "metric-maps"
+        "metric-combination",
+        "misleading"
       ],
       "pdf": "pdf/cs-082.pdf",
       "thumb": "thumbs/cs-082.png",
@@ -958,34 +970,33 @@
       "id": "cs-083",
       "title": "№75 — 7 способов измерить удержание в e-commerce",
       "tags": [
-        "retention",
-        "ecommerce-metrics"
+        "retention"
       ],
       "pdf": "pdf/cs-083.pdf",
       "thumb": "thumbs/cs-083.png",
       "source": "7 способов измерить удержание в e-commerce.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/247",
       "internal_title": "7 способов измерить удержание в e-commerce"
     },
     {
       "id": "cs-084",
       "title": "№76 — Осторожно: ловушка метрик",
       "tags": [
-        "data-culture",
-        "vanity-metrics"
+        "metric-combination",
+        "misleading"
       ],
       "pdf": "pdf/cs-084.pdf",
       "thumb": "thumbs/cs-084.png",
       "source": "Beware of the Metric Trap RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/204",
       "internal_title": "Осторожно: ловушка метрик"
     },
     {
       "id": "cs-085",
       "title": "№77 — Механика роста в e-commerce",
       "tags": [
-        "ecommerce-metrics",
-        "frameworks"
+        "growth",
+        "drivers"
       ],
       "pdf": "pdf/cs-085.pdf",
       "thumb": "thumbs/cs-085.png",
@@ -997,21 +1008,19 @@
       "id": "cs-086",
       "title": "№78 — Неочевидные выводы, которые видны только в сочетании метрик",
       "tags": [
-        "metric-maps",
-        "diagnostics"
+        "metric-combination"
       ],
       "pdf": "pdf/cs-086.pdf",
       "thumb": "thumbs/cs-086.png",
       "source": "Hidden patterns from metric overlaps RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/219",
       "internal_title": "Неочевидные выводы, которые видны только в сочетании метрик"
     },
     {
       "id": "cs-087",
       "title": "№79 — Как анализировать сезонность",
       "tags": [
-        "diagnostics",
-        "ecommerce-metrics"
+        "diagnostics"
       ],
       "pdf": "pdf/cs-087.pdf",
       "thumb": "thumbs/cs-087.png",
@@ -1023,7 +1032,8 @@
       "id": "cs-088",
       "title": "№80 — Аналитика без карт метрик — это блуждание в лабиринте",
       "tags": [
-        "data-culture"
+        "metric-maps",
+        "diagnostics"
       ],
       "pdf": "pdf/cs-088.pdf",
       "thumb": "thumbs/cs-088.png",
@@ -1035,8 +1045,7 @@
       "id": "cs-089",
       "title": "№81 — Коварные метрики",
       "tags": [
-        "vanity-metrics",
-        "data-culture"
+        "misleading"
       ],
       "pdf": "pdf/cs-089.pdf",
       "thumb": "thumbs/cs-089.png",
@@ -1048,12 +1057,13 @@
       "id": "cs-090",
       "title": "№82 — Что вы видите в своём дашборде?",
       "tags": [
-        "dashboards"
+        "dashboards",
+        "metric-maps"
       ],
       "pdf": "pdf/cs-090.pdf",
       "thumb": "thumbs/cs-090.png",
       "source": "What do you see in your dashboard – RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/212",
       "internal_title": "Что вы видите в своём дашборде?"
     },
     {
@@ -1072,20 +1082,21 @@
       "id": "cs-092",
       "title": "№84 — Как скидки искажают ваши метрики",
       "tags": [
-        "ecommerce-metrics",
-        "diagnostics"
+        "misleading",
+        "costs-profit"
       ],
       "pdf": "pdf/cs-092.pdf",
       "thumb": "thumbs/cs-092.png",
       "source": "Как скидки искажают ваши метрики.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/256",
       "internal_title": "Как скидки искажают ваши метрики"
     },
     {
       "id": "cs-093",
       "title": "№85 — Как убить data-driven культуру в компании",
       "tags": [
-        "data-culture"
+        "data-culture",
+        "mistakes"
       ],
       "pdf": "pdf/cs-093.pdf",
       "thumb": "thumbs/cs-093.png",
@@ -1103,7 +1114,7 @@
       "pdf": "pdf/cs-094.pdf",
       "thumb": "thumbs/cs-094.png",
       "source": "Карты метрик против “плоских” дашбордов.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/248",
       "internal_title": "Карты метрик против «плоских» дашбордов"
     },
     {
@@ -1115,15 +1126,15 @@
       "pdf": "pdf/cs-095.pdf",
       "thumb": "thumbs/cs-095.png",
       "source": "Метрики, которые кажутся важными но не ведут к решениям.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/361",
       "internal_title": "Метрики, которые кажутся важными, но не ведут к решениям"
     },
     {
       "id": "cs-096",
       "title": "№88 — Не доверяйте AOV вслепую",
       "tags": [
-        "ecommerce-metrics",
-        "diagnostics"
+        "aov",
+        "misleading"
       ],
       "pdf": "pdf/cs-096.pdf",
       "thumb": "thumbs/cs-096.png",
@@ -1135,8 +1146,8 @@
       "id": "cs-097",
       "title": "№89 — Одинаковый LTV. Совершенно разные бизнесы",
       "tags": [
-        "ecommerce-metrics",
-        "diagnostics"
+        "ltv",
+        "misleading"
       ],
       "pdf": "pdf/cs-097.pdf",
       "thumb": "thumbs/cs-097.png",
@@ -1148,8 +1159,8 @@
       "id": "cs-098",
       "title": "№90 — Средние значения метрик не объясняют ситуацию",
       "tags": [
-        "diagnostics",
-        "data-culture"
+        "segmentation",
+        "misleading"
       ],
       "pdf": "pdf/cs-098.pdf",
       "thumb": "thumbs/cs-098.png",
@@ -1161,8 +1172,8 @@
       "id": "cs-099",
       "title": "№91 — Фокусируйтесь на рычагах, а не только на результатах",
       "tags": [
-        "frameworks",
-        "diagnostics"
+        "drivers",
+        "metric-trees"
       ],
       "pdf": "pdf/cs-099.pdf",
       "thumb": "thumbs/cs-099.png",
@@ -1174,7 +1185,7 @@
       "id": "cs-100",
       "title": "№92 — Что CR не объясняет",
       "tags": [
-        "ecommerce-metrics",
+        "metric-trees",
         "diagnostics"
       ],
       "pdf": "pdf/cs-100.pdf",
@@ -1187,8 +1198,7 @@
       "id": "cs-101",
       "title": "№93 — Шахматная доска метрик в e-commerce",
       "tags": [
-        "metric-maps",
-        "ecommerce-metrics"
+        "metric-maps"
       ],
       "pdf": "pdf/cs-101.pdf",
       "thumb": "thumbs/cs-101.png",
