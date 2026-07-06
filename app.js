@@ -199,6 +199,11 @@
       els.lightboxTags.appendChild(chip);
     });
     els.lightboxDownload.href = ASSET_BASE + item.pdf;
+    // Force open-in-new-tab even if the already-embedded Tilda skeleton still has
+    // a leftover download attribute from before this element was made dynamic.
+    els.lightboxDownload.removeAttribute("download");
+    els.lightboxDownload.target = "_blank";
+    els.lightboxDownload.rel = "noopener";
     if (item.tg_post) {
       els.lightboxTg.href = item.tg_post;
       els.lightboxTg.hidden = false;
