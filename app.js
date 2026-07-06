@@ -1,7 +1,7 @@
 (function () {
   // Files (data.json, PDFs, thumbnails) are always loaded from GitHub Pages,
   // regardless of where this script itself runs (standalone or embedded natively in Tilda).
-  var ASSET_BASE = "https://mary-jetmetrics.github.io/cheatsheets-library/";
+  var ASSET_BASE = "https://jetmetrics-io.github.io/cheatsheets-library/";
 
   var state = {
     items: [],
