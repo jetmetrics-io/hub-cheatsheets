@@ -10,6 +10,7 @@ tg_match_results.json
 translate_titles.py
 native_embed.html
 build_native_embed.py
+renumber_public.py
 
 # Original source PDFs (un-renamed) — kept locally only, not needed for the live site
 ру читшиты/
