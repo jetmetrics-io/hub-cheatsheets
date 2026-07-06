@@ -88,6 +88,23 @@
   justify-content: center;
 }
 
+.jm-cs-reset-filters {
+  display: block;
+  margin: 4px auto 0;
+  background: none;
+  border: none;
+  color: var(--jm-text-muted);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 4px 8px;
+}
+
+.jm-cs-reset-filters:hover {
+  color: var(--jm-green);
+}
+
 .jm-cs-tag-pill {
   padding: 7px 14px;
   border-radius: 999px;
@@ -193,6 +210,18 @@
   background: var(--jm-green-light);
   color: var(--jm-green);
   font-weight: 500;
+}
+
+.jm-cs-card-tag {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease;
+}
+
+.jm-cs-card-tag:hover {
+  background: var(--jm-green);
+  color: #fff;
 }
 
 .jm-cs-empty {

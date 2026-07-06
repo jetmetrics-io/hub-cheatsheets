@@ -7,3 +7,8 @@ apply_tg_matches.py
 filename_map.json
 tg_match_review.md
 tg_match_results.json
+translate_titles.py
+
+# Original source PDFs (un-renamed) — kept locally only, not needed for the live site
+ру читшиты/
+.DS_Store

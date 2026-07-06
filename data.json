@@ -18,7 +18,7 @@
   "items": [
     {
       "id": "cs-001",
-      "title": "#044 — Disconnected analytics is a losing deck",
+      "title": "#044 — Аналитика без связей — это проигрышная колода",
       "tags": [
         "dashboards",
         "reporting"
@@ -30,7 +30,7 @@
     },
     {
       "id": "cs-002",
-      "title": "#045 — Shadow metrics tell the truth",
+      "title": "#045 — Яркие метрики могут врать, метрики в тени говорят правду",
       "tags": [
         "vanity-metrics",
         "diagnostics"
@@ -42,7 +42,7 @@
     },
     {
       "id": "cs-003",
-      "title": "#048 — Don't measure everything. Navigate.",
+      "title": "#048 — Не измеряй всё подряд. Двигайся по курсу.",
       "tags": [
         "data-culture",
         "frameworks"
@@ -54,7 +54,7 @@
     },
     {
       "id": "cs-004",
-      "title": "#050 — From bestsellers to dead stock",
+      "title": "#050 — От бестселлеров к «мёртвым» запасам",
       "tags": [
         "ecommerce-metrics",
         "segmentation"
@@ -66,7 +66,7 @@
     },
     {
       "id": "cs-005",
-      "title": "#051 — Add to Cart Rate Driver Tree",
+      "title": "#051 — Анатомия метрики «Конверсия в добавление в корзину»",
       "tags": [
         "metric-maps",
         "ecommerce-metrics"
@@ -78,7 +78,7 @@
     },
     {
       "id": "cs-006",
-      "title": "#052 — Same CR, different funnel",
+      "title": "#052 — Одинаковый CR, разные воронки",
       "tags": [
         "diagnostics",
         "ecommerce-metrics"
@@ -90,7 +90,7 @@
     },
     {
       "id": "cs-007",
-      "title": "#053 — LTV by segments is hidden gold",
+      "title": "#053 — LTV по сегментам — вот где ценность",
       "tags": [
         "ecommerce-metrics",
         "segmentation"
@@ -102,7 +102,7 @@
     },
     {
       "id": "cs-008",
-      "title": "#054 — E-commerce Metrics Health Check",
+      "title": "#054 — Чекап метрик в e-commerce",
       "tags": [
         "ecommerce-metrics",
         "frameworks"
@@ -114,7 +114,7 @@
     },
     {
       "id": "cs-009",
-      "title": "#055 — Fundamental Mistakes in Working with Metrics",
+      "title": "#055 — Фундаментальные ошибки в работе с метриками",
       "tags": [
         "data-culture"
       ],
@@ -125,7 +125,7 @@
     },
     {
       "id": "cs-010",
-      "title": "#056 — Is this a vanity metric?",
+      "title": "#056 — Это метрика тщеславия? Проверь через 8 вопросов",
       "tags": [
         "vanity-metrics"
       ],
@@ -136,7 +136,7 @@
     },
     {
       "id": "cs-011",
-      "title": "#057 — Metrics Overlap",
+      "title": "#057 — Скрытые закономерности из пересечений метрик 2.0",
       "tags": [
         "metric-maps",
         "diagnostics"
@@ -148,7 +148,7 @@
     },
     {
       "id": "cs-012",
-      "title": "#058 — 4 leverages of how to drive",
+      "title": "#058 — 4 рычага воздействия на средний чек",
       "tags": [
         "frameworks",
         "diagnostics"
@@ -160,7 +160,7 @@
     },
     {
       "id": "cs-013",
-      "title": "#059 — 7 Analytics Myths and what to do instead",
+      "title": "#059 — 7 заблуждений об аналитике (и что делать вместо них)",
       "tags": [
         "data-culture"
       ],
@@ -171,7 +171,7 @@
     },
     {
       "id": "cs-014",
-      "title": "#060 — 30 hypotheses for improving Average Items per Order",
+      "title": "#060 — 30 гипотез для роста метрики «Среднее кол-во SKU в заказе»",
       "tags": [
         "ecommerce-metrics",
         "diagnostics"
@@ -183,7 +183,7 @@
     },
     {
       "id": "cs-015",
-      "title": "#062 — Simpson's paradox explained",
+      "title": "#062 — Почему общий показатель может падать, когда сегменты растут",
       "tags": [
         "data-culture",
         "diagnostics"
@@ -195,7 +195,7 @@
     },
     {
       "id": "cs-016",
-      "title": "#063 — 4-Layer Dashboard Model",
+      "title": "#063 — 4 слоя отчётности",
       "tags": [
         "dashboards",
         "frameworks"
@@ -207,7 +207,7 @@
     },
     {
       "id": "cs-017",
-      "title": "#064 — The Hateful Ten",
+      "title": "#064 — Омерзительная десятка",
       "tags": [
         "vanity-metrics"
       ],
@@ -218,7 +218,7 @@
     },
     {
       "id": "cs-018",
-      "title": "#065 — New Old way",
+      "title": "#065 — Как мы мыслим: дашборды, которые объясняют, а не просто описывают",
       "tags": [
         "data-culture"
       ],
@@ -229,7 +229,7 @@
     },
     {
       "id": "cs-019",
-      "title": "#066 — Dots and connections",
+      "title": "#066 — Одна метрика — это просто сигнал. Аналитика — это связи между ними",
       "tags": [
         "metric-maps"
       ],
@@ -240,7 +240,7 @@
     },
     {
       "id": "cs-020",
-      "title": "#067 — 7 ways to decompose a key metric",
+      "title": "#067 — 7 способов декомпозировать AOV",
       "tags": [
         "metric-maps",
         "frameworks"
@@ -252,7 +252,7 @@
     },
     {
       "id": "cs-021",
-      "title": "#068 — Conversion ↑, Profit ↓",
+      "title": "#068 — Конверсия выросла, а прибыль упала",
       "tags": [
         "diagnostics",
         "ecommerce-metrics",
@@ -265,7 +265,7 @@
     },
     {
       "id": "cs-022",
-      "title": "#069 — The Nothing Changed Problem",
+      "title": "#069 — «Ничего не изменилось»",
       "tags": [
         "diagnostics"
       ],
@@ -276,7 +276,7 @@
     },
     {
       "id": "cs-023",
-      "title": "#070 — 3 dashboard types, 1 foundation",
+      "title": "#070 — 3 типа дашбордов — 1 основа: карта метрик",
       "tags": [
         "dashboards",
         "frameworks"
@@ -288,7 +288,7 @@
     },
     {
       "id": "cs-024",
-      "title": "#071 — Core map",
+      "title": "#071 — Как всё связано: карта клиентских показателей",
       "tags": [
         "metric-maps"
       ],
@@ -299,7 +299,7 @@
     },
     {
       "id": "cs-025",
-      "title": "#072 — Good vs Bad Dashboards",
+      "title": "#072 — Хорошая и плохая аналитика: дашборды для решений",
       "tags": [
         "dashboards"
       ],
@@ -310,7 +310,7 @@
     },
     {
       "id": "cs-026",
-      "title": "#073 — Logic-first Dashboards Cascade",
+      "title": "#073 — 5 шагов к осмысленному дашборду",
       "tags": [
         "dashboards"
       ],
@@ -321,7 +321,7 @@
     },
     {
       "id": "cs-027",
-      "title": "#074 — 3 leverages of how to drive",
+      "title": "#074 — 3 рычага управления метрикой LTV",
       "tags": [
         "frameworks",
         "diagnostics"
@@ -333,7 +333,7 @@
     },
     {
       "id": "cs-028",
-      "title": "#075 — How a Vanity Metric Becomes Useful",
+      "title": "#075 — Как метрика тщеславия становится полезной",
       "tags": [
         "vanity-metrics"
       ],
@@ -344,7 +344,7 @@
     },
     {
       "id": "cs-029",
-      "title": "#076 — Your CEO doesn't care about your CTR",
+      "title": "#076 — Что вы отслеживаете ≠ что на самом деле важно",
       "tags": [
         "reporting",
         "vanity-metrics"
@@ -356,7 +356,7 @@
     },
     {
       "id": "cs-030",
-      "title": "#077 — 10 ways to slice your metrics",
+      "title": "#077 — 10 полезных разрезов для e-commerce",
       "tags": [
         "segmentation",
         "frameworks"
@@ -368,7 +368,7 @@
     },
     {
       "id": "cs-031",
-      "title": "#078 — The 4 layers of a Metrics System",
+      "title": "#078 — 4 уровня системы метрик",
       "tags": [
         "frameworks",
         "dashboards"
@@ -380,7 +380,7 @@
     },
     {
       "id": "cs-032",
-      "title": "#079 — How Store's Costs Are Formed",
+      "title": "#079 — Как формируются расходы (и как это бьёт по прибыли)",
       "tags": [
         "costs-profit",
         "ecommerce-metrics"
@@ -392,7 +392,7 @@
     },
     {
       "id": "cs-033",
-      "title": "#080 — Reduce cart abandonment: Guide",
+      "title": "#080 — Что приводит к брошенным корзинам",
       "tags": [
         "ecommerce-metrics"
       ],
@@ -403,7 +403,7 @@
     },
     {
       "id": "cs-034",
-      "title": "#081 — How to structure dashboards the right way",
+      "title": "#081 — Как проектировать дашборды правильно",
       "tags": [
         "dashboards"
       ],
@@ -414,7 +414,7 @@
     },
     {
       "id": "cs-035",
-      "title": "#082 — 9 Circles of E-commerce Analytics Hell",
+      "title": "#082 — 9 кругов e-commerce аналитики ада",
       "tags": [
         "data-culture",
         "ecommerce-metrics"
@@ -426,7 +426,7 @@
     },
     {
       "id": "cs-036",
-      "title": "#083 — Metrics map ≠ metrics tree",
+      "title": "#083 — Карта метрик ≠ дерево метрик",
       "tags": [
         "metric-maps"
       ],
@@ -437,7 +437,7 @@
     },
     {
       "id": "cs-037",
-      "title": "#084 — SEO metrics map",
+      "title": "#084 — Как растить органический трафик",
       "tags": [
         "seo",
         "metric-maps"
@@ -449,7 +449,7 @@
     },
     {
       "id": "cs-038",
-      "title": "#085 — 12 high-intent events behind your CR",
+      "title": "#085 — 12 сигналов, что клиент готов купить",
       "tags": [
         "ecommerce-metrics",
         "diagnostics"
@@ -461,7 +461,7 @@
     },
     {
       "id": "cs-039",
-      "title": "#087 — From definitions to focus",
+      "title": "#087 — Как структура помогает выбрать приоритеты",
       "tags": [
         "frameworks",
         "data-culture"
@@ -473,7 +473,7 @@
     },
     {
       "id": "cs-040",
-      "title": "#088 — E-commerce Growth Rules",
+      "title": "#088 — Иллюзия здоровья в e-commerce",
       "tags": [
         "ecommerce-metrics"
       ],
@@ -484,7 +484,7 @@
     },
     {
       "id": "cs-041",
-      "title": "#089 — With or without a metric map",
+      "title": "#089 — Сначала карты метрик, потом деревья метрик",
       "tags": [
         "metric-maps"
       ],
@@ -495,7 +495,7 @@
     },
     {
       "id": "cs-042",
-      "title": "#090 — The Lifecycle of Metric Maps and Trees",
+      "title": "#090 — Жизненный цикл карт и деревьев метрик",
       "tags": [
         "metric-maps"
       ],
@@ -506,7 +506,7 @@
     },
     {
       "id": "cs-043",
-      "title": "#091 — CRM metrics map",
+      "title": "#091 — CRM метрики как система",
       "tags": [
         "crm",
         "metric-maps"
@@ -518,7 +518,7 @@
     },
     {
       "id": "cs-044",
-      "title": "#092 — Analytics Priorities 2026",
+      "title": "#092 — Приоритеты аналитики в 2026",
       "tags": [
         "data-culture",
         "frameworks"
@@ -530,7 +530,7 @@
     },
     {
       "id": "cs-045",
-      "title": "#093 — 10-step AOV drop diagnostic algorithm",
+      "title": "#093 — Как разобраться, почему упал AOV: алгоритм из 10 шагов",
       "tags": [
         "diagnostics",
         "ecommerce-metrics"
@@ -542,7 +542,7 @@
     },
     {
       "id": "cs-046",
-      "title": "#094 — Orders ↑, Profit ↓",
+      "title": "#094 — Заказы выросли, прибыль упала — как найти причину",
       "tags": [
         "diagnostics",
         "costs-profit",
@@ -555,7 +555,7 @@
     },
     {
       "id": "cs-047",
-      "title": "#095 — 15 metric frameworks",
+      "title": "#095 — 15 подходов к систематизации метрик",
       "tags": [
         "frameworks"
       ],
@@ -566,7 +566,7 @@
     },
     {
       "id": "cs-048",
-      "title": "#096 — CR Driver Tree",
+      "title": "#096 — Конверсия — это результат, а не точка приложения усилий",
       "tags": [
         "metric-maps",
         "ecommerce-metrics"
@@ -578,7 +578,7 @@
     },
     {
       "id": "cs-049",
-      "title": "#097 — Spontaneous Decisions vs System",
+      "title": "#097 — Хаотичные решения: почему продажи упали",
       "tags": [
         "data-culture"
       ],
@@ -589,7 +589,7 @@
     },
     {
       "id": "cs-050",
-      "title": "#099 — How to define a key metric",
+      "title": "#099 — Как выбрать ключевую метрику",
       "tags": [
         "frameworks"
       ],
@@ -600,7 +600,7 @@
     },
     {
       "id": "cs-051",
-      "title": "#100 — How to add a metric",
+      "title": "#100 — Нужно ли добавлять эту метрику на дашборд?",
       "tags": [
         "frameworks",
         "dashboards"
@@ -612,7 +612,7 @@
     },
     {
       "id": "cs-052",
-      "title": "#103 — What people think 'checking why revenue dropped' looks like",
+      "title": "#103 — «Давайте узнаем, почему продажи снизились»",
       "tags": [
         "diagnostics",
         "reporting"
@@ -624,7 +624,7 @@
     },
     {
       "id": "cs-053",
-      "title": "#105 — Metric went up — is that good?",
+      "title": "#105 — Если метрика растёт — это хорошо?",
       "tags": [
         "diagnostics",
         "vanity-metrics"
@@ -636,7 +636,7 @@
     },
     {
       "id": "cs-054",
-      "title": "#106 — Same Revenue, different e-com apps",
+      "title": "#106 — Разные приложения, одинаковые продажи",
       "tags": [
         "diagnostics",
         "ecommerce-metrics"
@@ -648,7 +648,7 @@
     },
     {
       "id": "cs-055",
-      "title": "#107 — How to explain metrics",
+      "title": "#107 — Как объяснять изменение метрик, чтобы это приводило к решениям",
       "tags": [
         "reporting"
       ],
@@ -659,7 +659,7 @@
     },
     {
       "id": "cs-056",
-      "title": "#108 — Optimization is NOT Growth",
+      "title": "#108 — Оптимизация — это не рост",
       "tags": [
         "data-culture",
         "ecommerce-metrics"
@@ -671,7 +671,7 @@
     },
     {
       "id": "cs-057",
-      "title": "#109 — One metric won't tell you what's wrong",
+      "title": "#109 — Одна метрика не покажет, в чём проблема",
       "tags": [
         "diagnostics",
         "vanity-metrics"
@@ -683,7 +683,7 @@
     },
     {
       "id": "cs-058",
-      "title": "#112 — When growth is eating your e-commerce business",
+      "title": "#112 — Когда рост заказов на самом деле вреден",
       "tags": [
         "ecommerce-metrics",
         "costs-profit"
@@ -695,7 +695,7 @@
     },
     {
       "id": "cs-059",
-      "title": "#114 — How top e-commerce teams read their data differently",
+      "title": "#114 — Как топ-команды работают с метриками иначе",
       "tags": [
         "data-culture",
         "ecommerce-metrics"
@@ -707,7 +707,7 @@
     },
     {
       "id": "cs-060",
-      "title": "#117 — Symptoms of vanity metrics",
+      "title": "#117 — Лечебник метрик тщеславия: симптомы",
       "tags": [
         "vanity-metrics"
       ],
@@ -718,7 +718,7 @@
     },
     {
       "id": "cs-061",
-      "title": "#118 — How to cure vanity metrics",
+      "title": "#118 — Лечебник метрик тщеславия: лечение",
       "tags": [
         "vanity-metrics"
       ],
@@ -729,7 +729,7 @@
     },
     {
       "id": "cs-062",
-      "title": "#121 — Types of metrics",
+      "title": "#121 — 4 типа метрик на карте метрик",
       "tags": [
         "frameworks"
       ],
@@ -740,7 +740,7 @@
     },
     {
       "id": "cs-063",
-      "title": "#122 — Types of relationships between metrics",
+      "title": "#122 — 2 типа связей между метриками",
       "tags": [
         "frameworks",
         "metric-maps"
@@ -752,7 +752,7 @@
     },
     {
       "id": "cs-064",
-      "title": "#126 — Higher AOV might mean you're losing money",
+      "title": "#126 — Что может скрываться за одной карточкой KPI",
       "tags": [
         "ecommerce-metrics",
         "diagnostics"
@@ -764,7 +764,7 @@
     },
     {
       "id": "cs-065",
-      "title": "#127 — Stop asking AI for answers",
+      "title": "#127 — Как правильно задавать вопросы о метриках ИИ",
       "tags": [
         "ai-analytics",
         "data-culture"
@@ -776,7 +776,7 @@
     },
     {
       "id": "cs-066",
-      "title": "#128 — How do we use Claude for our job (1/7)",
+      "title": "#128 — Как мы используем Claude в работе (кейс 1/7): находим нужную метрику для вопроса",
       "tags": [
         "ai-analytics"
       ],
@@ -787,7 +787,7 @@
     },
     {
       "id": "cs-067",
-      "title": "#128 — How do we use Claude for our job (2/7)",
+      "title": "#128 — Как мы используем Claude в работе (кейс 2/7): ищем верный бенчмарк без часов работы",
       "tags": [
         "ai-analytics"
       ],
@@ -798,7 +798,7 @@
     },
     {
       "id": "cs-068",
-      "title": "#128 — How do we use Claude for our job (3/7)",
+      "title": "#128 — Как мы используем Claude в работе (кейс 3/7): находим сегмент, влияющий на изменение",
       "tags": [
         "ai-analytics"
       ],
@@ -809,7 +809,7 @@
     },
     {
       "id": "cs-069",
-      "title": "#128 — How do we use Claude for our job (4/7)",
+      "title": "#128 — Как мы используем Claude в работе (кейс 4/7): разбираем падение метрики итеративно",
       "tags": [
         "ai-analytics"
       ],
@@ -820,7 +820,7 @@
     },
     {
       "id": "cs-070",
-      "title": "#128 — How do we use Claude for our job (5/7)",
+      "title": "#128 — Как мы используем Claude в работе (кейс 5/7): читаем дашборд как историю",
       "tags": [
         "ai-analytics"
       ],
@@ -831,7 +831,7 @@
     },
     {
       "id": "cs-071",
-      "title": "#128 — How do we use Claude for our job (6/7)",
+      "title": "#128 — Как мы используем Claude в работе (кейс 6/7): забираем данные автоматически, без разработчика",
       "tags": [
         "ai-analytics"
       ],
@@ -842,7 +842,7 @@
     },
     {
       "id": "cs-072",
-      "title": "#128 — How do we use Claude for our job (7/7)",
+      "title": "#128 — Как мы используем Claude в работе (кейс 7/7): собираем внутренний дашборд без BI-инструмента и кода",
       "tags": [
         "ai-analytics"
       ],
@@ -853,7 +853,7 @@
     },
     {
       "id": "cs-073",
-      "title": "#129 — Read every metric drop through 5 questions",
+      "title": "#129 — Как разбирать падение метрики через 5 вопросов",
       "tags": [
         "diagnostics",
         "frameworks"
@@ -865,7 +865,7 @@
     },
     {
       "id": "cs-074",
-      "title": "#135 — Decoration or Decision",
+      "title": "#135 — Украшение или решение?",
       "tags": [
         "dashboards",
         "data-culture"
@@ -877,7 +877,7 @@
     },
     {
       "id": "cs-075",
-      "title": "#136 — What your AI is missing",
+      "title": "#136 — Чего не хватает вашему ИИ для аналитики",
       "tags": [
         "ai-analytics"
       ],
@@ -888,7 +888,7 @@
     },
     {
       "id": "cs-076",
-      "title": "#137 — When the Metric Becomes the Target",
+      "title": "#137 — Когда метрика становится самоцелью",
       "tags": [
         "data-culture",
         "vanity-metrics"
@@ -900,7 +900,7 @@
     },
     {
       "id": "cs-077",
-      "title": "#138 — What your retention curve is actually telling you",
+      "title": "#138 — О чём может сказать кривая удержания",
       "tags": [
         "retention",
         "diagnostics"
@@ -912,7 +912,7 @@
     },
     {
       "id": "cs-078",
-      "title": "14 types of underperforming products in e-commerce",
+      "title": "14 типов товаров, которые мешают e-commerce расти",
       "tags": [
         "ecommerce-metrics",
         "diagnostics"
@@ -924,7 +924,7 @@
     },
     {
       "id": "cs-079",
-      "title": "25 reasons reports aren't helping you grow",
+      "title": "25 причин, почему отчёты не помогают расти",
       "tags": [
         "reporting",
         "dashboards"
@@ -936,7 +936,7 @@
     },
     {
       "id": "cs-080",
-      "title": "4 stages of retention decay",
+      "title": "4 стадии деградации ретеншна",
       "tags": [
         "retention"
       ],
@@ -947,7 +947,7 @@
     },
     {
       "id": "cs-081",
-      "title": "#043 — You're optimizing the wrong repeat",
+      "title": "#043 — Есть 3 вида удержания клиентов, и только один полезен",
       "tags": [
         "retention",
         "ecommerce-metrics"
@@ -983,7 +983,7 @@
     },
     {
       "id": "cs-084",
-      "title": "Beware of the Metric Trap",
+      "title": "Осторожно: ловушка метрик",
       "tags": [
         "data-culture",
         "vanity-metrics"
@@ -995,7 +995,7 @@
     },
     {
       "id": "cs-085",
-      "title": "E-commerce Growth Flywheel",
+      "title": "Механика роста в e-commerce",
       "tags": [
         "ecommerce-metrics",
         "frameworks"
@@ -1007,7 +1007,7 @@
     },
     {
       "id": "cs-086",
-      "title": "Hidden patterns from metric overlaps",
+      "title": "Неочевидные выводы, которые видны только в сочетании метрик",
       "tags": [
         "metric-maps",
         "diagnostics"
@@ -1019,7 +1019,7 @@
     },
     {
       "id": "cs-087",
-      "title": "How to Analyze Seasonality",
+      "title": "Как анализировать сезонность",
       "tags": [
         "diagnostics",
         "ecommerce-metrics"
@@ -1031,7 +1031,7 @@
     },
     {
       "id": "cs-088",
-      "title": "Maze",
+      "title": "Аналитика без карт метрик — это блуждание в лабиринте",
       "tags": [
         "data-culture"
       ],
@@ -1042,7 +1042,7 @@
     },
     {
       "id": "cs-089",
-      "title": "Tricky metrics that may mislead",
+      "title": "Коварные метрики",
       "tags": [
         "vanity-metrics",
         "data-culture"
@@ -1054,7 +1054,7 @@
     },
     {
       "id": "cs-090",
-      "title": "What do you see in your dashboard?",
+      "title": "Что вы видите в своём дашборде?",
       "tags": [
         "dashboards"
       ],
@@ -1134,7 +1134,7 @@
     },
     {
       "id": "cs-097",
-      "title": "Одинаковый LTV. Совершенно разные виды бизнеса",
+      "title": "Одинаковый LTV. Совершенно разные бизнесы",
       "tags": [
         "ecommerce-metrics",
         "diagnostics"
@@ -1146,7 +1146,7 @@
     },
     {
       "id": "cs-098",
-      "title": "Средние значения метрик не объясняют",
+      "title": "Средние значения метрик не объясняют ситуацию",
       "tags": [
         "diagnostics",
         "data-culture"

@@ -21,6 +21,7 @@
     lightboxDownload: document.getElementById("jm-cs-lightbox-download"),
     lightboxShare: document.getElementById("jm-cs-lightbox-share"),
     lightboxTg: document.getElementById("jm-cs-lightbox-tg"),
+    resetFilters: document.getElementById("jm-cs-reset-filters"),
   };
 
   fetch("data.json")
@@ -110,11 +111,27 @@
     return true;
   }
 
+  function filterByTag(tagId) {
+    state.activeTags = new Set([tagId]);
+    updatePillStates();
+    render();
+    els.tags.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  els.resetFilters.addEventListener("click", function () {
+    state.activeTags.clear();
+    state.query = "";
+    els.search.value = "";
+    updatePillStates();
+    render();
+  });
+
   function render() {
     var filtered = state.items.filter(matches);
     els.grid.innerHTML = "";
     els.count.textContent = filtered.length + " из " + state.items.length + " читшитов";
     els.empty.hidden = filtered.length > 0;
+    els.resetFilters.hidden = state.activeTags.size === 0 && !state.query;
 
     filtered.forEach(function (item) {
       var card = document.createElement("div");
@@ -141,9 +158,14 @@
       var tagsWrap = document.createElement("div");
       tagsWrap.className = "jm-cs-card-tags";
       item.tags.forEach(function (t) {
-        var chip = document.createElement("span");
+        var chip = document.createElement("button");
+        chip.type = "button";
         chip.className = "jm-cs-card-tag";
         chip.textContent = state.tagLabels[t] || t;
+        chip.addEventListener("click", function (e) {
+          e.stopPropagation();
+          filterByTag(t);
+        });
         tagsWrap.appendChild(chip);
       });
       body.appendChild(tagsWrap);
