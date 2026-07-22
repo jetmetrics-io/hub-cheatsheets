@@ -1298,6 +1298,131 @@
       "tg_post": "https://t.me/jetmetrics/231",
       "internal_title": "Шахматная доска метрик в e-commerce",
       "seo_description": "Карта метрик e-commerce по ролям: базовые, ключевые, долгосрочные метрики и метрики реакции."
+    },
+    {
+      "id": "cs-102",
+      "title": "№94 — Как разбирать падение метрики через 5 вопросов",
+      "tags": [
+        "diagnostics",
+        "interpretation"
+      ],
+      "pdf": "pdf/cs-102.pdf",
+      "thumb": "thumbs/cs-102.png",
+      "source": "129 Read every metric drop through 5 questions – RUS.pdf",
+      "tg_post": null,
+      "internal_title": "#129 — Как разбирать падение метрики через 5 вопросов",
+      "seo_description": "Алгоритм из 5 вопросов, чтобы разобраться в падении метрики: есть ли падение, где именно, почему, насколько важно и что делать."
+    },
+    {
+      "id": "cs-103",
+      "title": "№95 — Что можно узнать, анализируя метрики в паре",
+      "tags": [
+        "metric-combination",
+        "diagnostics"
+      ],
+      "pdf": "pdf/cs-103.pdf",
+      "thumb": "thumbs/cs-103.png",
+      "source": "139 – Where 2 metrics meet, the diagnosis appears RUS.pdf",
+      "tg_post": null,
+      "internal_title": "#139 — Что можно узнать, анализируя метрики в паре",
+      "seo_description": "Пары метрик (конверсия и CTR, AOV и число товаров и др.) дают диагноз, который одна метрика в отдельности не покажет."
+    },
+    {
+      "id": "cs-104",
+      "title": "№96 — Управляемость метрики — это градиент",
+      "tags": [
+        "drivers",
+        "interpretation"
+      ],
+      "pdf": "pdf/cs-104.pdf",
+      "thumb": "thumbs/cs-104.png",
+      "source": "140 – Metrics Lever RUS.pdf",
+      "tg_post": null,
+      "internal_title": "#140 — Управляемость метрики — это градиент",
+      "seo_description": "Управляемость метрики — не да/нет, а градиент: от высокой к средней и неуправляемой. Как понять, на что реально можно влиять."
+    },
+    {
+      "id": "cs-105",
+      "title": "№97 — Когда метрика становится самоцелью (B2B)",
+      "tags": [
+        "vanity-metrics",
+        "data-culture"
+      ],
+      "pdf": "pdf/cs-105.pdf",
+      "thumb": "thumbs/cs-105.png",
+      "source": "142 – When the Metric Becomes the Target B2B – RUS.pdf",
+      "tg_post": null,
+      "internal_title": "#142 — Когда метрика становится самоцелью (B2B)",
+      "seo_description": "B2B-версия: что ломается, когда команда оптимизирует метрику ради метрики — по этапам от привлечения до удержания."
+    },
+    {
+      "id": "cs-106",
+      "title": "№98 — Идеалистическая vs прагматичная стратегия аналитики",
+      "tags": [
+        "data-culture",
+        "dashboards"
+      ],
+      "pdf": "pdf/cs-106.pdf",
+      "thumb": "thumbs/cs-106.png",
+      "source": "143 – Idealistic VS Pragmatic.pdf",
+      "tg_post": null,
+      "internal_title": "#143 — Идеалистическая vs прагматичная стратегия аналитики",
+      "seo_description": "Почему стратегия «собрать 500 метрик на 12 дашбордах» не работает и как выглядит прагматичный подход к аналитике."
+    },
+    {
+      "id": "cs-107",
+      "title": "№99 — 4 суперспособности карт метрик",
+      "tags": [
+        "metric-maps",
+        "dashboards"
+      ],
+      "pdf": "pdf/cs-107.pdf",
+      "thumb": "thumbs/cs-107.png",
+      "source": "145 – 4 super powers RUS.pdf",
+      "tg_post": null,
+      "internal_title": "#145 — 4 суперспособности карт метрик",
+      "seo_description": "Четыре вещи, которые карты метрик дают при построении дашбордов: отбор нужных метрик, связи, приоритеты и фокус."
+    },
+    {
+      "id": "cs-108",
+      "title": "№100 — KPI в порядке. А остальное?",
+      "tags": [
+        "vanity-metrics",
+        "interpretation"
+      ],
+      "pdf": "pdf/cs-108.pdf",
+      "thumb": "thumbs/cs-108.png",
+      "source": "146 – Metrics Guardrails RUS.pdf",
+      "tg_post": null,
+      "internal_title": "#146 — KPI в порядке. А остальное?",
+      "seo_description": "KPI растёт — но что происходит с метриками-ограничителями рядом. Зачем нужны guardrail-метрики."
+    },
+    {
+      "id": "cs-109",
+      "title": "№101 — Все способы сегментации клиентов",
+      "tags": [
+        "segmentation"
+      ],
+      "pdf": "pdf/cs-109.pdf",
+      "thumb": "thumbs/cs-109.png",
+      "source": "148 – Landscape of customer segmentation RUS.pdf",
+      "tg_post": null,
+      "internal_title": "#148 — Все способы сегментации клиентов",
+      "seo_description": "Карта способов сегментации клиентов: поведенческие, описательные и прогнозные подходы, RFM и другие."
+    },
+    {
+      "id": "cs-110",
+      "title": "№102 — Деревья метрик против карт метрик",
+      "tags": [
+        "metric-trees",
+        "metric-maps"
+      ],
+      "pdf": "pdf/cs-110.pdf",
+      "thumb": "thumbs/cs-110.png",
+      "source": "Driver trees VS Metrics maps.pdf",
+      "tg_post": null,
+      "internal_title": "Деревья метрик против карт метрик",
+      "seo_description": "В чём разница между деревьями метрик и картами метрик: внешний вид, назначение и анализ причинно-следственных связей."
     }
   ]
 }
