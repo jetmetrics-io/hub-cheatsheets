@@ -33,6 +33,10 @@
     lightboxShare: document.getElementById("jm-cs-lightbox-share"),
     lightboxTg: document.getElementById("jm-cs-lightbox-tg"),
     resetFilters: document.getElementById("jm-cs-reset-filters"),
+    zoom: document.getElementById("jm-cs-zoom"),
+    zoomScroll: document.getElementById("jm-cs-zoom-scroll"),
+    zoomImg: document.getElementById("jm-cs-zoom-img"),
+    zoomClose: document.getElementById("jm-cs-zoom-close"),
   };
 
   fetch(ASSET_BASE + "data.json")
@@ -266,6 +270,10 @@
 
   function closeLightbox(opts) {
     opts = opts || {};
+    if (els.zoom && !els.zoom.hidden) {
+      els.zoom.hidden = true;
+      els.zoom.classList.remove("is-full");
+    }
     els.lightbox.hidden = true;
     document.body.style.overflow = "";
     state.currentItem = null;
@@ -281,8 +289,48 @@
 
   els.lightboxBackdrop.addEventListener("click", function () { closeLightbox(); });
   els.lightboxClose.addEventListener("click", function () { closeLightbox(); });
+
+  // Fullscreen zoom: click the lightbox image -> open it full-screen (fit to
+  // height). Click the full-screen image -> toggle 100% real-pixel zoom.
+  els.lightboxImg.addEventListener("click", function () {
+    if (!state.currentItem) return;
+    openZoom(state.currentItem);
+  });
+
+  function openZoom(item) {
+    els.zoomImg.src = ASSET_BASE + item.thumb;
+    els.zoomImg.alt = item.title;
+    els.zoom.classList.remove("is-full");
+    els.zoom.hidden = false;
+    els.zoomScroll.scrollTop = 0;
+    els.zoomScroll.scrollLeft = 0;
+  }
+
+  function closeZoom() {
+    els.zoom.hidden = true;
+    els.zoom.classList.remove("is-full");
+  }
+
+  els.zoomImg.addEventListener("click", function () {
+    var goingFull = !els.zoom.classList.contains("is-full");
+    els.zoom.classList.toggle("is-full");
+    if (goingFull) {
+      // Center the 100% view roughly on where the page starts.
+      els.zoomScroll.scrollTop = 0;
+      els.zoomScroll.scrollLeft = (els.zoomImg.clientWidth - els.zoomScroll.clientWidth) / 2;
+    }
+  });
+
+  els.zoomClose.addEventListener("click", closeZoom);
+  // Click the dark margin (not the image) closes too.
+  els.zoomScroll.addEventListener("click", function (e) {
+    if (e.target === els.zoomScroll) closeZoom();
+  });
+
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape" && !els.lightbox.hidden) closeLightbox();
+    if (e.key !== "Escape") return;
+    if (!els.zoom.hidden) { closeZoom(); return; }
+    if (!els.lightbox.hidden) closeLightbox();
   });
 
   window.addEventListener("popstate", function () {

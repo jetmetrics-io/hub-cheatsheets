@@ -475,6 +475,7 @@
   display: block;
   border-radius: var(--jm-r-sm);
   box-shadow: var(--jm-e2);
+  cursor: zoom-in;
 }
 
 .jm-cs-lightbox-footer {
@@ -565,6 +566,80 @@
 }
 
 .jm-cs-btn-download:focus-visible { outline: none; box-shadow: var(--jm-ring); }
+
+/* Fullscreen zoom — click the lightbox image to open the cheatsheet full-screen.
+   Fit-to-height first (whole page visible, larger than in the popup); click again
+   to zoom to 100% (real 1445×1919) with scroll. Esc or the close button exits. */
+.jm-cs-zoom {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--jm-z-modal) + 1);
+  background: rgba(8, 11, 13, .92);
+  animation: jm-cs-fade var(--jm-dur-slow) var(--jm-ease-out);
+}
+
+.jm-cs-zoom[hidden] { display: none; }
+
+.jm-cs-zoom-scroll {
+  position: absolute;
+  inset: 0;
+  overflow: auto;
+  padding: var(--jm-space-6);
+  -webkit-overflow-scrolling: touch;
+  /* Fit state: flex-center the image both ways. It fits on screen, so nothing
+     overflows and centering is safe. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Zoom state: drop flex centering. A flex item taller than the container has its
+   overflowing TOP pushed out of the scroll range (known flex+overflow trap), so
+   we switch to block flow + margin:auto, which keeps the whole image scrollable
+   from the very top while staying horizontally centered. */
+.jm-cs-zoom.is-full .jm-cs-zoom-scroll {
+  display: block;
+  text-align: center;
+}
+
+#jm-cs-zoom-img {
+  display: block;
+  height: auto;
+  border-radius: var(--jm-r-sm);
+  box-shadow: var(--jm-e3);
+  /* fit-to-height state */
+  max-height: calc(100vh - var(--jm-space-6) * 2);
+  max-width: 100%;
+  cursor: zoom-in;
+}
+
+/* zoomed-in state: real pixel size, scrollable */
+.jm-cs-zoom.is-full #jm-cs-zoom-img {
+  max-height: none;
+  max-width: none;
+  margin: 0 auto;
+  cursor: zoom-out;
+}
+
+.jm-cs-zoom-close {
+  position: fixed;
+  top: var(--jm-space-5);
+  right: var(--jm-space-5);
+  z-index: 1;
+  background: rgba(255, 255, 255, .95);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--jm-text);
+  box-shadow: var(--jm-e1);
+}
+
+.jm-cs-zoom-close:hover { background: #fff; color: var(--jm-green); }
+.jm-cs-zoom-close:focus-visible { outline: none; box-shadow: var(--jm-ring); }
 
 @media (max-width: 520px) {
   .jm-cs-title { font-size: 1.5rem; }
