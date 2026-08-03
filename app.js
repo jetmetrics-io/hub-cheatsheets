@@ -39,10 +39,41 @@
     zoomClose: document.getElementById("jm-cs-zoom-close"),
   };
 
+  // Читшит считается новым NEW_DAYS дней от даты публикации (published_at, YYYY-MM-DD).
+  // Бейдж гаснет сам — снимать руками ничего не нужно.
+  // 30 дней под ритм выкладки: пачка выходит примерно раз в месяц, так «Новое»
+  // держится до следующей пачки и в библиотеке всегда есть свежий блок.
+  var NEW_DAYS = 30;
+
+  function daysSincePublished(item) {
+    if (!item.published_at) return null;
+    var p = /^(\d{4})-(\d{2})-(\d{2})$/.exec(item.published_at);
+    if (!p) return null;
+    var then = Date.UTC(+p[1], +p[2] - 1, +p[3]);
+    var now = new Date();
+    var today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.floor((today - then) / 86400000);
+  }
+
+  function isNew(item) {
+    var d = daysSincePublished(item);
+    return d !== null && d >= 0 && d < NEW_DAYS;
+  }
+
+  // Новые — вперёд (внутри группы свежие сверху), остальные — в исходном порядке нумерации.
+  function sortByFreshness(items) {
+    var fresh = [], rest = [];
+    items.forEach(function (i) { (isNew(i) ? fresh : rest).push(i); });
+    fresh.sort(function (a, b) {
+      return a.published_at === b.published_at ? 0 : (a.published_at < b.published_at ? 1 : -1);
+    });
+    return fresh.concat(rest);
+  }
+
   fetch(ASSET_BASE + "data.json")
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      state.items = data.items;
+      state.items = sortByFreshness(data.items);
       state.tagLabels = data.tags;
       renderTagPills();
       render();
@@ -196,6 +227,12 @@
       img.loading = "lazy";
       img.alt = item.title;
       thumbWrap.appendChild(img);
+      if (isNew(item)) {
+        var badge = document.createElement("span");
+        badge.className = "jm-cs-card-new";
+        badge.textContent = "Новое";
+        thumbWrap.appendChild(badge);
+      }
       card.appendChild(thumbWrap);
 
       var body = document.createElement("div");
