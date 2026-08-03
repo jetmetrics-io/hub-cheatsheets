@@ -248,20 +248,21 @@
   position: relative;
 }
 
+/* Бейдж живёт в заголовке карточки, перед номером — не на превью:
+   у читшитов заголовок сверху во всю ширину, плашка перекрывала бы картинку. */
 .jm-cs-card-new {
-  position: absolute;
-  top: var(--jm-space-2);
-  right: var(--jm-space-2);
-  z-index: 1;
-  padding: 3px 10px;
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 8px;
   border-radius: var(--jm-r-pill);
   background: var(--jm-green);
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: var(--jm-w-bold);
-  line-height: 1.4;
+  line-height: 1.5;
   letter-spacing: 0.01em;
-  box-shadow: 0 1px 4px rgba(6, 77, 43, 0.25);
+  vertical-align: 1px;
+  white-space: nowrap;
 }
 
 .jm-cs-card-thumb-wrap img {

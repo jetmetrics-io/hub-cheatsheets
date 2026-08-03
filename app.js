@@ -227,12 +227,6 @@
       img.loading = "lazy";
       img.alt = item.title;
       thumbWrap.appendChild(img);
-      if (isNew(item)) {
-        var badge = document.createElement("span");
-        badge.className = "jm-cs-card-new";
-        badge.textContent = "Новое";
-        thumbWrap.appendChild(badge);
-      }
       card.appendChild(thumbWrap);
 
       var body = document.createElement("div");
@@ -241,6 +235,15 @@
       var title = document.createElement("div");
       title.className = "jm-cs-card-title";
       renderTitle(title, item.title);
+      if (isNew(item)) {
+        // Бейдж перед номером: при сканировании столбца заголовков «Новое»
+        // попадается первым. На превью его класть нельзя — у читшитов заголовок
+        // идёт сверху во всю ширину, плашка перекрывала бы текст самой картинки.
+        var badge = document.createElement("span");
+        badge.className = "jm-cs-card-new";
+        badge.textContent = "Новое";
+        title.insertBefore(badge, title.firstChild);
+      }
       body.appendChild(title);
 
       var tagsWrap = document.createElement("div");
