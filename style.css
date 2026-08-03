@@ -321,6 +321,8 @@
   justify-items: center;
 }
 
+.jm-cs-empty[hidden] { display: none; }
+
 .jm-cs-empty-icon {
   width: 40px;
   height: 40px;
