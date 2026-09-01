@@ -3,7 +3,7 @@ README.md
 tilda_embed_snippet.html
 build_data.py
 match_tg_posts.py
-apply_tg_matches.py
+apply_tg_links.py
 filename_map.json
 tg_match_review.md
 tg_match_results.json
