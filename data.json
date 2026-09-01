@@ -1507,7 +1507,7 @@
       "pdf": "pdf/cs-111.pdf",
       "thumb": "thumbs/cs-111.png",
       "source": "149 Semantic VS Causal layer RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/453",
       "internal_title": "2 слоя аналитики, которых почти ни у кого нет",
       "seo_description": "Семантический слой и карты метрик: на какие вопросы отвечает каждый, из чего состоит, кто создаёт, сколько занимает и почему ИИ-аналитика без них ошибается.",
       "published_at": "2026-08-03"
@@ -1524,10 +1524,106 @@
       "pdf": "pdf/cs-112.pdf",
       "thumb": "thumbs/cs-112.png",
       "source": "150 Marketing VS Sales RUS.pdf",
-      "tg_post": null,
+      "tg_post": "https://t.me/jetmetrics/454",
       "internal_title": "Лиды некачественные или продажи не дожимают?",
       "seo_description": "Карта метрик, которая разделяет зону маркетинга и зону продаж: где просели лиды и их стоимость, а где конверсия в сделку и скорость касаний.",
       "published_at": "2026-08-03"
+    },
+    {
+      "id": "cs-113",
+      "title": "№103 — Что делает дашборд аккуратным, а что — ценным",
+      "tags": [
+        "dashboards",
+        "mistakes",
+        "data-culture"
+      ],
+      "pdf": "pdf/cs-113.pdf",
+      "thumb": "thumbs/cs-113.png",
+      "source": "151 Bauty VS Value RUS.pdf",
+      "tg_post": "https://t.me/jetmetrics/457",
+      "internal_title": "Что делает дашборд аккуратным, а что — ценным",
+      "seo_description": "Два списка признаков рядом: аккуратный дашборд (сетка, единый стиль, адаптация под телефон) и ценный (локализует проблему, отличает колебание от проблемы, переводит проценты на язык денег).",
+      "published_at": "2026-09-01"
+    },
+    {
+      "id": "cs-114",
+      "title": "№104 — Не каждую метрику надо растить или снижать",
+      "tags": [
+        "interpretation",
+        "retention",
+        "crm"
+      ],
+      "pdf": "pdf/cs-114.pdf",
+      "thumb": "thumbs/cs-114.png",
+      "source": "152 Not every metric should grow RUS.pdf",
+      "tg_post": "https://t.me/jetmetrics/458",
+      "internal_title": "Не каждую метрику надо растить или снижать",
+      "seo_description": "Разбор метрик на три группы: что растить (прибыль на клиента, частота покупок), что снижать (отток, жалобы на спам) и что держать в балансе (доля заказов со скидкой, касаний на клиента, объём бонусов).",
+      "published_at": "2026-09-01"
+    },
+    {
+      "id": "cs-115",
+      "title": "№105 — Выбор метрик для дашборда: как воспринимается и как должно быть",
+      "tags": [
+        "dashboards",
+        "mistakes",
+        "metric-maps"
+      ],
+      "pdf": "pdf/cs-115.pdf",
+      "thumb": "thumbs/cs-115.png",
+      "source": "153 Perception VS Reality RUS.pdf",
+      "tg_post": "https://t.me/jetmetrics/459",
+      "internal_title": "Выбор метрик для дашборда: восприятие против реальности",
+      "seo_description": "«Выведите основные метрики на экран» против реального порядка: цель дашборда по JTBD, ключевая метрика, метрики-рычаги, метрики-противовесы, срезы и релевантные визуализации.",
+      "published_at": "2026-09-01"
+    },
+    {
+      "id": "cs-116",
+      "title": "№106 — 5 шагов к дашборду, который открывают",
+      "tags": [
+        "dashboards",
+        "metric-maps",
+        "diagnostics"
+      ],
+      "pdf": "pdf/cs-116.pdf",
+      "thumb": "thumbs/cs-116.png",
+      "source": "155 How to build a really useful dashboard RUS.pdf",
+      "tg_post": "https://t.me/jetmetrics/461",
+      "internal_title": "5 шагов к дашборду, который открывают",
+      "seo_description": "Порядок сборки диагностического дашборда: выбрать задачу (1 дашборд = 1 задача), ключевую метрику, поддерживающие метрики в 1–3 шагах по карте, метрики-противовесы и разрезы — на примере службы поддержки.",
+      "published_at": "2026-09-01"
+    },
+    {
+      "id": "cs-117",
+      "title": "№107 — Как разложить метрику, чтобы стало понятно, что делать",
+      "tags": [
+        "metric-trees",
+        "drivers",
+        "aov"
+      ],
+      "pdf": "pdf/cs-117.pdf",
+      "thumb": "thumbs/cs-117.png",
+      "source": "156 How decompose metric RUS.pdf",
+      "tg_post": "https://t.me/jetmetrics/463",
+      "internal_title": "Как разложить метрику, чтобы стало понятно, что делать",
+      "seo_description": "Базовое разложение по арифметике против продвинутого — по управляемым частям с типом влияния: средний чек, конверсия, удержание и выручка, разобранные до рычагов, которыми можно управлять.",
+      "published_at": "2026-09-01"
+    },
+    {
+      "id": "cs-118",
+      "title": "№108 — Анатомия связи между метриками",
+      "tags": [
+        "metric-maps",
+        "drivers",
+        "interpretation"
+      ],
+      "pdf": "pdf/cs-118.pdf",
+      "thumb": "thumbs/cs-118.png",
+      "source": "157 Anathomy of relationship between metrics RUS.pdf",
+      "tg_post": "https://t.me/jetmetrics/467",
+      "internal_title": "Анатомия связи между метриками",
+      "seo_description": "Карточка для описания одной связи: тип (тождество, влияние, ассоциация), знак, направление, лаг, проверено ли на данных и может ли знак поменяться — с разобранным примером про время на карточке товара.",
+      "published_at": "2026-09-01"
     }
   ]
 }

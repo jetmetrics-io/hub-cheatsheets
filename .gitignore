@@ -14,6 +14,7 @@ renumber_public.py
 remove_and_renumber.py
 
 # Original source PDFs (un-renamed) — kept locally only, not needed for the live site
+исходники/
 ру читшиты/
 new читшиты /
 .DS_Store
