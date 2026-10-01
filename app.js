@@ -60,20 +60,22 @@
     return d !== null && d >= 0 && d < NEW_DAYS;
   }
 
-  // Новые — вперёд (внутри группы свежие сверху), остальные — в исходном порядке нумерации.
-  function sortByFreshness(items) {
-    var fresh = [], rest = [];
-    items.forEach(function (i) { (isNew(i) ? fresh : rest).push(i); });
-    fresh.sort(function (a, b) {
-      return a.published_at === b.published_at ? 0 : (a.published_at < b.published_at ? 1 : -1);
-    });
-    return fresh.concat(rest);
+  // Вся сетка — по убыванию публичного номера: чем больше номер, тем выше карточка,
+  // поэтому свежая пачка всегда наверху. Номер берётся из заголовка «№N — …»,
+  // записи без номера уходят в конец.
+  function publicNum(item) {
+    var m = /^№(\d+)/.exec(item.title || "");
+    return m ? +m[1] : -1;
+  }
+
+  function sortByNumberDesc(items) {
+    return items.slice().sort(function (a, b) { return publicNum(b) - publicNum(a); });
   }
 
   fetch(ASSET_BASE + "data.json")
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      state.items = sortByFreshness(data.items);
+      state.items = sortByNumberDesc(data.items);
       state.tagLabels = data.tags;
       renderTagPills();
       render();
