@@ -1,5 +1,6 @@
 # Local-only project/planning files — not needed for the live site
 README.md
+история.md
 tilda_embed_snippet.html
 build_data.py
 match_tg_posts.py
