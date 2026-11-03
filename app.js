@@ -39,11 +39,9 @@
     zoomClose: document.getElementById("jm-cs-zoom-close"),
   };
 
-  // Читшит считается новым NEW_DAYS дней от даты публикации (published_at, YYYY-MM-DD).
+  // Читшит считается новым 7 календарных дней от даты публикации (published_at, YYYY-MM-DD).
   // Бейдж гаснет сам — снимать руками ничего не нужно.
-  // 30 дней под ритм выкладки: пачка выходит примерно раз в месяц, так «Новое»
-  // держится до следующей пачки и в библиотеке всегда есть свежий блок.
-  var NEW_DAYS = 30;
+  var NEW_DAYS = 7;
 
   function daysSincePublished(item) {
     if (!item.published_at) return null;
