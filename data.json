@@ -1902,6 +1902,22 @@
       "source": "P-283 RU v3 04.11.pdf",
       "tg_post": "https://t.me/jetmetrics/497",
       "published_at": "2026-11-04"
+    },
+    {
+      "id": "cs-137",
+      "title": "№127 — Как именно метрики связаны друг с другом: 30 примеров",
+      "internal_title": "Как именно метрики связаны друг с другом: 30 примеров",
+      "seo_description": "30 примеров прямого и обратного влияния и связей метрик по формуле, этапам процесса и составу — с объяснением каждой связи.",
+      "tags": [
+        "metric-combination",
+        "metric-maps",
+        "interpretation"
+      ],
+      "pdf": "pdf/cs-137.pdf",
+      "thumb": "thumbs/cs-137.png",
+      "source": "P-266 RU v9 опубликован.pdf",
+      "tg_post": "https://t.me/jetmetrics/498",
+      "published_at": "2026-11-06"
     }
   ]
 }
