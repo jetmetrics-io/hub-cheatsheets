@@ -1918,6 +1918,23 @@
       "source": "P-266 RU v9 опубликован.pdf",
       "tg_post": "https://t.me/jetmetrics/498",
       "published_at": "2026-11-06"
+    },
+    {
+      "id": "cs-138",
+      "title": "№128 — Куда направлены усилия в аналитике: раньше и сейчас",
+      "internal_title": "Куда направлены усилия в аналитике: раньше и сейчас",
+      "seo_description": "Как меняется распределение усилий в аналитической работе: сравнение 11 направлений — от сбора данных и отчётности до проверки выводов, подготовки решений и согласования действий.",
+      "tags": [
+        "ai-analytics",
+        "data-culture",
+        "reporting",
+        "interpretation"
+      ],
+      "pdf": "pdf/cs-138.pdf",
+      "thumb": "thumbs/cs-138.png",
+      "source": "P-288 RU 09.11 опубликован.pdf",
+      "tg_post": "https://t.me/jetmetrics/499",
+      "published_at": "2026-11-09"
     }
   ]
 }
